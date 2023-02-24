@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    flex-direction:column;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 2.3em 0;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+/* .logo img {
+    display: block;
+} */
+
+nav {
+    margin: 1.5em 0 0 5%;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 1.4em 0 0;
+    font-size: 0.9em;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #7d7c7d;
+  }
+  
+  li a.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-weight: 300;
+  }
+  
+  li a:hover {
+    color: #b6b6b6;
+  }
