@@ -1,7 +1,167 @@
-container {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: #ffd323;
-    background-color: aqua;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: solid purple; */
+  background-color: aqua;
+}
+
+/* ul is acting as a parent and li is a child */
+ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+ul li a{
+  padding: 0 20px;
+  /* the 0 is for the top/bottom and 20 is for left/right */
+  text-decoration: none;
+  color: #3a3a3a;
+  display: inline-block;
+}
+
+li a::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width 0;
+  background: #c4c4f7;
+  transition: all .5s;
+}
+li a:hover::after{
+  width: 100%;
+}
+
+main{
+  display: flex;
+  height: calc(100vh - 100px);
+    /* align-items is for vertical aligning and justify-content is for horizontal*/
+  align-items: center;
+  justify-content: center;
+  /* border: solid greenyellow 2px; */
+  background-color: aquamarine;
+}
+
+.hero-img{
+  max-width: 300px;
+  height: auto;
+}
+
+.content-left{
+  width: 30%;
+  /* border: solid pink 2px; */
+}
+
+main h1{
+  font-size: 54px;
+  color: #c3740d;
+  text-transform: uppercase;
+}
+
+main h2{
+  font-size: 27px;
+  color: #fca70c;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+main p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 31.5px;
+  margin: 30px 0;
+}
+
+.cta{
+  padding: 15px 30px;
+  background: #c4c4f7;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.signup-btn{
+  padding: 10px 20px;
+  background: #c4c4f7;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+
+
+.cover{
+  margin: 0;
+  padding: 0;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 800px;
+  height: 400px; */
+  margin-top: 20px;
+  display: flex; 
+  /* border: solid rgb(64, 236, 255) 2px; */
+  background-color: #c4c4f7;
+}
+
+.box{
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  box-shadow: -1px 0 10px #000000;
+  text-align: center;
+  /* border: solid red; */
+}
+
+.rowimg{
+  margin-top: 20px;
+  max-width: 200px;
+  height: auto;
+  /* how to get photo in middle of box vertically? */
+}
+
+
+.section4{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  margin-top: 50px;
+  font-size: 30px;
+  display: flex; 
+  background-color: #ff94e6;
+}
+
+.footer{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 11px;
+  display: flex; 
+  background-color: #eeff6f;
+}
