@@ -14,7 +14,7 @@ header{
   justify-content: space-around;
   align-items: center;
   /* border: solid purple; */
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 /* ul is acting as a parent and li is a child */
@@ -37,7 +37,7 @@ li a::after{
   display: block;
   height: 4px;
   width 0;
-  background: #c4c4f7;
+  /* background: #c4c4f7; */
   transition: all .5s;
 }
 li a:hover::after{
@@ -51,7 +51,7 @@ main{
   align-items: center;
   justify-content: center;
   /* border: solid greenyellow 2px; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .hero-img{
@@ -120,7 +120,7 @@ main p{
   margin-top: 20px;
   display: flex; 
   /* border: solid rgb(64, 236, 255) 2px; */
-  background-color: #c4c4f7;
+  /* background-color: #c4c4f7; */
 }
 
 .box{
@@ -150,7 +150,7 @@ main p{
   margin-top: 50px;
   font-size: 30px;
   display: flex; 
-  background-color: #ff94e6;
+  /* background-color: #ff94e6; */
 }
 
 .footer{
@@ -163,5 +163,5 @@ main p{
   margin-top: 20px;
   font-size: 11px;
   display: flex; 
-  background-color: #eeff6f;
+  /* background-color: #eeff6f; */
 }
