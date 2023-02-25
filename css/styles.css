@@ -1,6 +1,7 @@
-.container {
+container {
     padding: 10px;
     text-align: center;
     font-size: 2em;
     color: #ffd323;
+    background-color: aqua;
   }
